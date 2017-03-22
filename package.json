@@ -16,9 +16,10 @@
     "css-loader": "^0.27.3",
     "extract-text-webpack-plugin": "^2.1.0",
     "style-loader": "^0.15.0",
-    "webpack": "^2.3.0"
+    "webpack": "^2.3.0",
+    "webpack-dev-server": "^2.4.2"
   },
   "scripts": {
-    "start": "webpack --watch"
+    "start": "webpack-dev-server"
   }
 }

@@ -35,5 +35,11 @@ module.exports = {
     },
     plugins: [
         new ExtractTextPlugin('./dist/styles.css')
-    ]
+    ],
+    devServer: {
+      contentBase: path.join(__dirname),
+      compress: true,
+      port: 9000,
+    },
+    watch: true
 }
